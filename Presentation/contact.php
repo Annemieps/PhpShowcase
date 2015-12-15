@@ -10,7 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <form action="" method="post">
+        <form action="voegboodschaptoe.php?action=invoegen" method="post">
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="Naam">Naam</label>

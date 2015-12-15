@@ -1,8 +1,8 @@
 <?php
+require_once './Business/boodschapService.php';
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+if (isset($_GET["action"]) && $_GET["action"] == "invoegen") {
+    $boodschapService=new boodschapService;
+    $boodschapService->voegNieuweBoodschapIn($_POST["naam"], $_POST["email"], $_POST["bericht"]);
+    
+}
