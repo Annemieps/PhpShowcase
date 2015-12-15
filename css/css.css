@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 14, 2015, 10:47:56 AM
+    Author     : annemie.roelants
+*/
+/*344138 groen
+C04D45 oranje*/
+
+//fundamenteel
+body {
+    background-color: #D7D7D7;
+}
+
+ .container {
+    width: 90%;
+    background-color: #222;
+    margin: 5% auto;
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding:2em;
+}
+.container h1,
+.container h2,
+.container h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+header {
+    margin: 3em 0 2em 0;
+    border-bottom: 1px solid grey;
+    padding-bottom: 0em;
+}
+nav {
+    margin: 0.5em;
+    margin-top: 3em;
+    padding: 2em 0;
+}
+
+//opmaak
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 5% 0;
+}
+header h1 {
+    color: white;
+    font-size: 4em;
+    line-height: 0.7em;
+}
+header h1 small {
+    color: white;
+    font-size: 0.5em;
+    line-height: 0.5em;
+}
+strong {
+    font-weight: normal;
+    color: #DA9999;
+}
+a {
+    color: #DA9999;
+    text-decoration: none;
+    
+}
+a:hover{ color: #DA9999;}
+#selfie {
+    width: 40%;
+}
+.projectimg{
+    width:40%;
+}
+#midden h1{
+    margin: 1em 0;
+}
+
+
+
+textarea{
+    color:#333;
+}
+.row {
+    border-bottom: 1px solid grey;
+    padding:3em 0;
+}
+.row section{margin-top: 1em;}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   .container {
+    width: 60%;
+   }
+   .projectimg{
+       width:20%;
+   }
+   #selfie {
+    width: 30%;
+}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+body {
+    background-image: url(../img/bos.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul li {
+        list-style-type: none;
+        padding: 2% 2%;
+        border-bottom: none;
+        display: inline;
+        
+    }
+header h1 {
+    color: white;
+    font-size: 6em;
+    line-height: 0.7em;
+}    
+.projectimg{
+    width:50%;
+}
+#midden .col-md-4,#midden .col-md-6{
+    //outline:1px solid red;
+    padding-left: 1.2em;
+}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
