@@ -134,7 +134,7 @@
             </article>
         </div>
         <h1 class="text-center">Contact</h1>
-        <?php include_once './Presentation/contact.php';?>
+        <?php include_once './Presentation/contact.php';?> 
         </div>    
     </div>
 
