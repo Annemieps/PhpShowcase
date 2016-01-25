@@ -31,7 +31,7 @@
             <h1>Annemie <br><small>Roelants</small></h1>
             <nav class="row text-center">
                <ul>
-                <li class="col-md-4"><a href="#">Home</a></li>
+                <li class="col-md-4"><a href="/index.php">Home</a></li>
                 <li class="col-md-4"><a href="/projecten.php">Projecten</a></li>
                 <li class="col-md-4"><a href="#">Random</a></li>
               </ul>
@@ -116,25 +116,25 @@
                 <img src="img/plandaLogo200x200.jpg" alt="Planda" class="img-circle projectimg"/>
                 <br> Planda was een planning applicatie speciaal ontwikkeld voor mensen met Autisme en ADHD. Aan de hand van doelgroep onderzoek en markt onderzoek zochten we uit wat er ontbrak voor onze doelgroep in de gewone plannings applicaties die op dat moment op de markt beschikbaar waren.
                 <br>
-                <a href="projecten/planda.html" class="btn btn-default">Meer over dit project</a>
+                <a href="../projecten/planda.html" class="btn btn-default">Meer over dit project</a>
             </article>
             <article class="col-md-4">
                 <h2>Eindwerk - Planda</h2>
                 <img src="img/plandaLogo200x200.jpg" alt="Planda" class="img-circle projectimg"/>
                 <br> Planda was een planning applicatie speciaal ontwikkeld voor mensen met Autisme en ADHD. Aan de hand van doelgroep onderzoek en markt onderzoek zochten we uit wat er ontbrak voor onze doelgroep in de gewone plannings applicaties die op dat moment op de markt beschikbaar waren.
                 <br>
-                <a href="projecten/planda.html" class="btn btn-default">Meer over dit project</a>
+                <a href="../projecten/planda.html" class="btn btn-default">Meer over dit project</a>
             </article>
             <article class="col-md-4">
                 <h2>Eindwerk - Planda</h2>
                 <img src="img/plandaLogo200x200.jpg" alt="Planda" class="img-circle projectimg"/>
                 <br> Planda was een planning applicatie speciaal ontwikkeld voor mensen met Autisme en ADHD. Aan de hand van doelgroep onderzoek en markt onderzoek zochten we uit wat er ontbrak voor onze doelgroep in de gewone plannings applicaties die op dat moment op de markt beschikbaar waren.
                 <br>
-                <a href="projecten/planda.html" class="btn btn-default">Meer over dit project</a>
+                <a href="../projecten/planda.html" class="btn btn-default">Meer over dit project</a>
             </article>
         </div>
         <h1 class="text-center">Contact</h1>
-        <?php include_once './Presentation/contact.php';?> 
+        <?php include_once 'contact.php';?> 
         </div>    
     </div>
 
