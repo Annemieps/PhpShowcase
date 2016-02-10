@@ -19,6 +19,13 @@ if (isset($_GET["action"]) && $_GET["action"] == "invoegen") {
                     //boodschap word in de database gezet
                     $boodschapService = new boodschapService;
                     $boodschapService->voegNieuweBoodschapIn($_POST["naam"], $_POST["email"], $_POST["boodschap"]);
+                    
+//                    $message=$_POST["naam"]. " met het volgende email adress ". $_POST['email']. " stuurde de volgende boodschap". $_POST['boodschap'];
+//                    mail('aroelants@gmail.com','Email van website',$message);
+                    
+                        $message="test";
+                        mail('aroelants@gmail.com','my subject',$message);
+                    
                     header("location: presentation/index.php");
                     exit(0);
                 } else {

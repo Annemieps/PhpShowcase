@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Contact</title>
     </head>
     <body>
         <form action="../voegboodschaptoe.php?action=invoegen" method="post">
@@ -21,25 +21,25 @@
                     <label for="message">Boodschap</label>
                     <br>
                     <input type="text" class="form-control" id="boodschap" name="boodschap" placeholder="Uw boodschap" required>
-                    
+
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-default">Submit</button>
                 </div>
                 <?php
-                if (isset($_GET["error"]) && $_GET["error"] == "leeg"){
+                if (isset($_GET["error"]) && $_GET["error"] == "leeg") {
                     ?>
-                                <p style="color: red">Alle velden invullen!</p>
-                                <?php
+                    <p style="color: red">Alle velden invullen!</p>
+                    <?php
                 }
-                if (isset($_GET["error"]) && $_GET["error"] == "fout"){
+                if (isset($_GET["error"]) && $_GET["error"] == "fout") {
                     ?>
-                                <p style="color: red">Correcte informatie invullen!</p>
-                                <?php
+                    <p style="color: red">Correcte informatie invullen!</p>
+                    <?php
                 }
                 ?>
             </div>
         </form>
-        
+
     </body>
 </html>
